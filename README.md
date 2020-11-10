@@ -39,10 +39,11 @@ docker run -d giansalex/monero-miner xmrig\
      -k  \
      --cpu-priority=2
 ```
-
-docker build -t monero:latest .
+docker build -t monero:6.5.1 .
 ---
-docker run monero:latest
+docker-compose build .
+---
+docker run monero:6.5.1
 ---
 
 
