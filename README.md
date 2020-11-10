@@ -39,6 +39,8 @@ docker run -d giansalex/monero-miner xmrig\
      -k  \
      --cpu-priority=2
 ```
+endit .env file for your info
+---
 docker build -t monero:6.5.1 .
 ---
 docker-compose up
