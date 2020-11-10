@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  monero:
+    image: monero:6.5.1
+      environment:
+        - WALLET=${WALLET} # here it is
+        - POOL=${POOL}
