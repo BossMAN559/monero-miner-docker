@@ -6,6 +6,6 @@ services:
     env_file:
       - ./.env
     container_name: monero
-      environment:
-        - WALLET="${WALLET}"
-        - POOL="${POOL}"
+    environment:
+      - WALLET="${WALLET}"
+      - POOL="${POOL}"
