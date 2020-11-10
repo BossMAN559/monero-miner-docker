@@ -41,7 +41,9 @@ docker run -d giansalex/monero-miner xmrig\
 ```
 
 docker build -t monero:latest .
+---
 docker run monero:latest
+---
 
 
 ### Donate
