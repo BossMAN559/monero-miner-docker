@@ -41,10 +41,9 @@ docker run -d giansalex/monero-miner xmrig\
 ```
 docker build -t monero:6.5.1 .
 ---
-docker-compose build .
+docker-compose up
 ---
-docker run monero:6.5.1
----
+
 
 
 ### Donate
