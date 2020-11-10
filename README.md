@@ -40,6 +40,10 @@ docker run -d giansalex/monero-miner xmrig\
      --cpu-priority=2
 ```
 
+docker build -t monero:latest .
+docker run monero:latest
+
+
 ### Donate
 
 - XMR: `49FzQ7CxFxLQsYNHnGJ8CN1BgJaBvr2FGPEiFVcbJ7KsWDRzSxyN8Sq4hHVSYehjPZLpGe26cY8b7PShd7yxtZcrRjz6xdT`
