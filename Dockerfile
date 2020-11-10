@@ -25,8 +25,8 @@ FROM alpine:3.11
 LABEL owner="Giancarlos Salas"
 LABEL maintainer="giansalex@gmail.com"
 
-ENV WALLET=BossMAN559.worker3
-ENV POOL=xmr.viabtc.com:8888
+ENV WALLET="${WALLET}"
+ENV POOL="${POOL}"
 
 RUN echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
     apk update && apk add --no-cache \
