@@ -41,8 +41,6 @@ docker run -d giansalex/monero-miner xmrig\
 ```
 endit .env file for your info
 ---
-docker build -t monero:6.5.1 .
----
 docker-compose up
 ---
 
