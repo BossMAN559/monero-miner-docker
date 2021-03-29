@@ -1,4 +1,4 @@
-FROM alpine:3.11 AS builder
+FROM alpine:edge AS builder
 
 ARG XMRIG_VERSION='v${Version}'
 WORKDIR /miner
@@ -21,7 +21,7 @@ RUN cd xmrig/build && \
     make -j$(nproc)
 
 
-FROM alpine:3.11
+FROM alpine:edge
 LABEL owner="Giancarlos Salas"
 LABEL maintainer="giansalex@gmail.com"
 
