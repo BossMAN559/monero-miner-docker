@@ -14,7 +14,7 @@ RUN echo "@testing http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/ap
 
 RUN git clone https://github.com/xmrig/xmrig && \
     mkdir xmrig/build && \
-    cd xmrig && git checkout ${XMRIG_VERSION}
+    cd xmrig
 
 RUN cd xmrig/build && \
     cmake .. -DCMAKE_BUILD_TYPE=Release && \
